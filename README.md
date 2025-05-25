@@ -5,7 +5,7 @@ Through interactive dashboards, this solution provides insights into student att
 
 The system uses Power BI Desktop for dashboard development. Data from Excel/CSV files is ingested via
 Power Query, cleaned, and transformed. DAX is used for scoring logic:
-Performance Score = (0.4 * Exam Score) + (0.2 * Assignment) + (0.2 * Attendance) + (0.2 * Participation)
+Performance Score = (0.5 * Exam Score) + (0.2 * Internals) + (0.1 * Assignment) + (0.2 * Participation)
 The dashboard features multiple visuals:
 - KPI Cards for risk identification
 - Line graphs for performance trends
